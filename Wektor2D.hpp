@@ -5,7 +5,7 @@ public:
     void   setY(double y_in) { y = y_in; }
     double getX() { return x; }
     double getY() { return y; }
-    void   print() { std::print("[{},{}]\n", x, y); }
+    //void   print() { std::print("[{},{}]\n", x, y); }
     double norm() { return sqrt((x * x) + (y * y)); }
     double x = 0;
     double y = 0;
