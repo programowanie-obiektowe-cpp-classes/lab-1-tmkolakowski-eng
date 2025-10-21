@@ -1,6 +1,3 @@
-#include <iostream>
-#include <print>
-
 class Wektor2D
 {
 public:
