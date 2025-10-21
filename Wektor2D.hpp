@@ -1,5 +1,6 @@
 #include <iostream>
 #include <print>
+
 class Wektor2D
 {
 public:
@@ -7,11 +8,8 @@ public:
     void   setY(double y_in) { y = y_in; }
     double getX() { return x; }
     double getY() { return y; }
-    void   print() { std::println("Vektor ma wspolrzedne [{},{}]", x, y); }
+    void   print() { std::println("[{},{}]", x, y); }
     double norm() { return sqrt((x * x) + (y * y)); }
-    
-
-private:
     double x = 0;
     double y = 0;
 };
